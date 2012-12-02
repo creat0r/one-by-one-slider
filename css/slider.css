@@ -1,0 +1,126 @@
+.one-by-one-slider{
+	position: absolute;
+        left: 1%;
+       right: 1%;
+	width: 100%;	
+	height: 400px;
+	max-width: 1024px;
+       margin: 0 auto;
+       align: center;
+        
+}
+.one-by-one-slider-loading{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:999;
+	background: transparent;
+	color: #fff000;
+	text-align: center;
+	line-height: 400px;
+}
+.one-by-one-slider-large{
+	height: 100%;
+	width: 100%;
+	position:relative;
+	overflow: hidden;
+}
+.one-by-one-slider-large li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.one-by-one-slider-large li img{
+      width: 100%;
+}
+.one-by-one-slider-nav {
+position: relative;
+text-align: center;
+
+}
+.one-by-one-slider-thumbs{
+	height: 13px;
+	margin:0px auto;
+	position: relative;
+   
+}
+.one-by-one-slider-thumbs li{
+	position: relative;
+	height: 100%;
+        display: inline;
+        text-align: center;
+}
+.one-by-one-slider-thumbs li.one-by-one-slider-element {
+	display: inline-block;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: gray;
+        z-index: 99999;
+	margin: 5px;	
+	box-shadow: 
+	1px 1px 1px rgba(0,0,0,0.1) inset, 
+	1px 1px 1px rgba(255,255,255,0.1);
+	
+}
+.one-by-one-slider-thumbs li a{
+	display: inline-block;
+	position: relative;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #e4b42d;
+	margin: 5px;	
+	box-shadow: 
+	1px 1px 1px rgba(0,0,0,0.1) inset, 
+	1px 1px 1px rgba(255,255,255,0.1);
+}
+.one-by-one-slider-thumbs li a:hover{
+	background-color: #f0f0f0;
+}
+.one-by-one-slider-thumbs li img{
+	position: absolute;
+	bottom: 50px;
+        left: -33px;
+       padding: 15px;
+        right: 50%;
+	opacity: 0;
+	z-index: 999;
+	width: 64px;
+	-webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+	-webkit-box-reflect: 
+        below 0px -webkit-gradient(
+            linear, 
+            left top, 
+            left bottom, 
+            from(transparent), 
+            color-stop(50%, transparent), 
+            to(rgba(255,255,255,0.3))
+            );
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.one-by-one-slider-thumbs li:hover img{
+	opacity: 1;
+	bottom: 13px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+@media screen and (max-width: 830px) {
+
+.one-by-one-slider{
+	height: 300px;
+        
+}
+
+}

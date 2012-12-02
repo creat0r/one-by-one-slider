@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive One-By-One Slider</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="keywords" content="one by one slider, responsive slider">
+       <meta name="description" content="Responsive One-By-One Slider with Touch Events enabled. Add Unlimited Layers and Thumbnail Previews">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|BenchNine:400normal' rel='stylesheet' type='text/css' />
+       <link rel="stylesheet" type="text/css" href="css/slider.min.css" />
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/noscript.css" />
+		</noscript>
+   </head>
+    <body>
+    <div id="header" class="header"><h1>Responsive One-By-One Slider</h1></div>
+    <div class="slider">
+        <div id="one-by-one-slider" class="one-by-one-slider">
+                    <ul class="one-by-one-slider-large">
+                        <li>
+                            <img src="images/large/bg1.jpg" alt="image01" />
+                            <div class="slider-content">
+                                <div class="slider-image0" data-animation="bounceInRight" data-duration=3 data-delay=1><img src="images/large/1.png" alt="image01" /></div>
+                                 <div class="slider-heading" style="top: 50%;" data-animation="bounceInUp" data-duration=3 data-delay=1>Responsive layout</div>
+                                 <div class="slider-heading" style="top: 60%;" data-animation="bounceInLeft" data-duration=3 data-delay=1>Touch enabled</div>
+                                 <div class="slider-heading" style="top: 70%;" data-animation="bounceInRight" data-duration=3 data-delay=1>Multiply animation effects</div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/large/bg2.jpg" alt="image02" />
+                            <div class="slider-content">
+                             <div class="slider-image2" data-animation="bounceInRight" data-duration=3 data-delay=1><img src="images/large/2.png" alt="image01" /></div>
+                             <div class="slider-image3" data-animation="bounceIn" data-duration=3 data-delay=2><img src="images/large/3.png" alt="image01" /></div>
+                                 <div class="slider-heading3" data-animation="bounceIn" data-duration=3 data-delay=1>Multiply<br>Animated Layers</div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/large/bg3.jpg" alt="image03"/>
+                            <div class="slider-content">
+                                 <div class="slider-image4" data-animation="bounceInUp" data-duration=3 data-delay=1><img src="images/large/4.png" alt="image01" /></div>
+                                <div class="slider-heading" style="top: 70%;" data-animation="bounceInLeft" data-duration=3 data-delay=1>Easy to implement<br>and use</div>
+                            </div>
+                        </li>
+                                                <li>
+                            <img src="images/large/bg4.jpg" alt="image04"/>
+                            <div class="slider-content">
+                                <div class="slider-heading2" style="top: 75%;" data-animation="rollIn" data-duration=2 data-delay=1>Mobile and Tablet friendly</div>
+                                <div class="slider-heading2" style="top: 65%;" data-animation="lightSpeedIn" data-duration=2 data-delay=1>Easy settings</div>
+
+                                <div class="slider-image3" data-animation="bounceInUp" data-duration=3 data-delay=1><img src="images/large/5.png" alt="image01" /></div>
+                            </div>
+                        </li>
+
+                        </ul>
+                        <div class="one-by-one-slider-nav">
+              <ul class="one-by-one-slider-thumbs">
+                        <li class="one-by-one-slider-element"></li>
+                        <li><a href="#"></a><img src="images/thumbs/1.png" alt="thumb01" /></li>
+                        <li><a href="#"></a><img src="images/thumbs/3.png" alt="thumb02" /></li>
+                        <li><a href="#"></a><img src="images/thumbs/4.png" alt="thumb03" /></li>
+                        <li><a href="#"></a><img src="images/thumbs/5.png" alt="thumb03" /></li>
+
+                    </ul></div><!-- one-by-one-slider-nav -->
+
+                     </div><!-- one-by-one-slider -->
+
+                           </div><!-- slider -->
+
+                           <div class="content"><a href="https://github.com/creat0r/one-by-one-slider" class="button">Get The Code</a><br><br><h2>Slider Features</h2>
+<ul>
+<li>Content animations driven by Animate.css</li>
+<li>Multiply animated items</li>
+<li>Animate any type of content</li>
+<li>Responsive (resize the window to see how it adapts)</li>
+<li>Supports touch events (swipe to test)</li>
+<li>Thumbnails preview</li>
+<li>Easy to set animations using data attributes</li>
+</ul>
+<br><br>
+</div>
+                             <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.onebyoneslider.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.wipetouch.min.js"></script>
+        <script type="text/javascript">
+
+            $(function() {
+                $('#one-by-one-slider').onebyoneslider({
+                    slideshow_interval	: 5000,
+					easing		: 'easeOutExpo'
+                });
+
+
+             });
+
+
+
+        </script>

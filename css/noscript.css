@@ -1,0 +1,9 @@
+.one-by-one-slider{
+	height: auto;
+}
+.one-by-one-slider-thumbs{
+	display: none;
+}
+.one-by-one-slider-large li{
+	position: relative;
+}
