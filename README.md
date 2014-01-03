@@ -49,3 +49,6 @@ Responsive one-by-one slider supporting touch events. Animations are driven by A
                      </div><!-- one-by-one-slider -->
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/creat0r/one-by-one-slider/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
